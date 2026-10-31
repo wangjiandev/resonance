@@ -24,7 +24,12 @@ export const VoiceCategory = {
   GENERAL: 'GENERAL',
   NARRATIVE: 'NARRATIVE',
   CHARACTERS: 'CHARACTERS',
-  MEDITATION: 'MEDITATION'
+  MEDITATION: 'MEDITATION',
+  MOTIVATIONAL: 'MOTIVATIONAL',
+  PODCAST: 'PODCAST',
+  ADVERTISING: 'ADVERTISING',
+  VOICEOVER: 'VOICEOVER',
+  CORPORATE: 'CORPORATE'
 } as const
 
 export type VoiceCategory = (typeof VoiceCategory)[keyof typeof VoiceCategory]
